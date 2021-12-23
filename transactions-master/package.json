@@ -1,0 +1,21 @@
+{
+    "name": "lq-live-node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "env-cmd -f ./config/dev.env nodemon src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "latest",
+        "mysql2": "latest"
+    },
+    "devDependencies": {
+        "nodemon": "latest",
+        "env-cmd": "latest"
+    }
+}
